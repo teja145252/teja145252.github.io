@@ -525,6 +525,11 @@ form h1{
 /*         left: 50%; /*Center header text horizontally */ 
 /*         transform: translateX(-50%); /* Center header text horizontally */ 
     }
+    #header{
+        background-size: cover; /* Adjust as needed */
+        background-position: center;
+        height: 70vh;
+    }
 
     .header-text h1, .header-text p {
         font-size: 3vw;
