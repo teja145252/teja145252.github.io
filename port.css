@@ -13,7 +13,7 @@ html,body {
 #header {
     width: 100%;
     height: 100vh;
-/*     background-image: url("assets/images/header img.jpg"); */
+    background-image: url("assets/images/header img.jpg");
     background-size: contain;
     background-position: right;
     justify-content: flex-end;
@@ -395,7 +395,7 @@ form h1{
 
 
 /* ------------------------mediaqueries-------------------- */
-/* @media (max-width: 950px) {
+@media (max-width: 950px) {
     .header-text {
         padding: 10px 5%;
         padding-top:280px;
@@ -506,7 +506,7 @@ form h1{
     }
     
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .menu-icon {
         display: block;
         position: fixed;
@@ -520,7 +520,7 @@ form h1{
         font-size: 25px;
         position: absolute;
         bottom: 0; /* Align header text to the bottom */
-        left: 50%; /* Center header text horizontally */
+        left: 100%; /* Center header text horizontally */
         transform: translateX(-50%); /* Center header text horizontally */
     }
 
