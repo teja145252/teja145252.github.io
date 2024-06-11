@@ -523,6 +523,7 @@ form h1{
         font-size: 25px;
         position: absolute;
         text-align: left;
+        padding-left: 3px;
         bottom: 0; /* Align header text to the bottom */ 
     }
     #header{
