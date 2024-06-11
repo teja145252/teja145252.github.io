@@ -521,9 +521,7 @@ form h1{
         position: absolute;
         text-align: left;
         margin-bottom: 20px;
-        bottom: 0; /* Align header text to the bottom */
-/*         left: 50%; /*Center header text horizontally */ 
-/*         transform: translateX(-50%); /* Center header text horizontally */ 
+        bottom: 0; /* Align header text to the bottom */ 
     }
     #header{
         background-size: cover; /* Adjust as needed */
@@ -585,7 +583,7 @@ form h1{
     .work-list {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
-} */
+} 
 
 #msg{
     color:white;
