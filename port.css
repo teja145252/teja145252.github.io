@@ -516,6 +516,7 @@ form h1{
     }
     .header-text {
         padding: 5px;
+        padding-top: 300px;
         padding-bottom: 30px; /* Adjust padding to move header text to the bottom */
         margin-bottom: 30px;
         font-size: 25px;
