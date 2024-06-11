@@ -519,9 +519,11 @@ form h1{
         padding-bottom: 20px; /* Adjust padding to move header text to the bottom */
         font-size: 25px;
         position: absolute;
+        text-align: left;
+        margin-bottom: 20px;
         bottom: 0; /* Align header text to the bottom */
-        left: 50%; /*Center header text horizontally */
-        transform: translateX(-50%); /* Center header text horizontally */
+/*         left: 50%; /*Center header text horizontally */ 
+/*         transform: translateX(-50%); /* Center header text horizontally */ 
     }
 
     .header-text h1, .header-text p {
