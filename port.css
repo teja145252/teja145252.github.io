@@ -527,8 +527,8 @@ form h1{
         padding-left: 3px;
         bottom: 0;  */
         padding: 450px 40px 25px ; /* Shorthand for padding (top right bottom left) */
-        margin: 20px 40px 30px 0; /* Shorthand for margin (top right bottom left) */
-        font-size: 25px;
+        margin: 20px 40px 20px 0; /* Shorthand for margin (top right bottom left) */
+        font-size: 30px;
         position: absolute;
         text-align: left;
         bottom: 0; /* Align header text to the bottom */
