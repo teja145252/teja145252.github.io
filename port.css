@@ -516,8 +516,8 @@ form h1{
     }
     .header-text {
         padding: 5px;
-        padding-bottom: 20px; /* Adjust padding to move header text to the bottom */
-        font-size: 15px;
+        padding-bottom: 30px; /* Adjust padding to move header text to the bottom */
+        font-size: 25px;
         position: absolute;
         bottom: 0; /* Align header text to the bottom */
         left: 50%; /* Center header text horizontally */
@@ -525,7 +525,7 @@ form h1{
     }
 
     .header-text h1, .header-text p {
-        font-size: 2.2vw;
+        font-size: 3vw;
     }
 
     .highlight-line {
