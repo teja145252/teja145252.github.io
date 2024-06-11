@@ -526,13 +526,13 @@ form h1{
         text-align: left;
         padding-left: 3px;
         bottom: 0;  */
-        padding: 5px 40px 25px 3px; /* Shorthand for padding (top right bottom left) */
+        padding: 450px 40px 25px ; /* Shorthand for padding (top right bottom left) */
         margin: 20px 40px 30px 0; /* Shorthand for margin (top right bottom left) */
         font-size: 25px;
         position: absolute;
         text-align: left;
         bottom: 0; /* Align header text to the bottom */
-        left: 0; /* To ensure it's aligned to the left as well */
+        left: 5px; /* To ensure it's aligned to the left as well */
         right: 0;
     }
     #header{
