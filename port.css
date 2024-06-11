@@ -520,7 +520,7 @@ form h1{
         font-size: 25px;
         position: absolute;
         bottom: 0; /* Align header text to the bottom */
-        left: 100%; /* Center header text horizontally */
+        left: 50%; /* Center header text horizontally */
         transform: translateX(-50%); /* Center header text horizontally */
     }
 
