@@ -506,6 +506,80 @@ form h1{
     }
     
 }
+@media (max-width: 450px) {
+    .menu-icon {
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1001;
+    }
+    .header-text {
+        padding: 5px;
+        padding-bottom: 20px; /* Adjust padding to move header text to the bottom */
+        font-size: 15px;
+        position: absolute;
+        bottom: 0; /* Align header text to the bottom */
+        left: 50%; /* Center header text horizontally */
+        transform: translateX(-50%); /* Center header text horizontally */
+    }
+
+    .header-text h1, .header-text p {
+        font-size: 2.2vw;
+    }
+
+    .highlight-line {
+        font-size: 2.5vw;
+    }
+
+    .logo {
+        position: fixed;
+        top: 0px;
+        left: 10px;
+        height: 70px;
+        width: 120px;
+        z-index:0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-end;
+        display: none;
+        background: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        width: auto;
+        padding:10px 20px;
+        border-radius: 3px;
+    }
+    nav ul.active {
+        display: flex;
+        animation: fadeIn 0.5s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .About {
+        padding: 10% 5%;
+        padding-top:10px;
+    }
+    .work-list {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
 #msg{
     color:white;
     margin-top: 20px;
