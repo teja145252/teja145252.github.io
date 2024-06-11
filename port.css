@@ -528,7 +528,7 @@ form h1{
     #header{
         background-size: cover; /* Adjust as needed */
         background-position: center;
-        height: 80vh;
+        height: 85vh;
     }
 
     .header-text h1, .header-text p {
