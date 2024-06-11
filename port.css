@@ -395,7 +395,7 @@ form h1{
 
 
 /* ------------------------mediaqueries-------------------- */
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
     .header-text {
         padding: 10px 5%;
         padding-top:280px;
@@ -578,7 +578,7 @@ form h1{
     .work-list {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
-}
+} */
 
 #msg{
     color:white;
