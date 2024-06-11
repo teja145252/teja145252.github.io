@@ -516,7 +516,8 @@ form h1{
     }
     .header-text {
         padding: 5px;
-        padding-bottom: 20px; /* Adjust padding to move header text to the bottom */
+        padding-bottom: 30px; /* Adjust padding to move header text to the bottom */
+        margin-bottom: 30px;
         font-size: 25px;
         position: absolute;
         text-align: left;
@@ -526,7 +527,7 @@ form h1{
     #header{
         background-size: cover; /* Adjust as needed */
         background-position: center;
-        height: 70vh;
+        height: 80vh;
     }
 
     .header-text h1, .header-text p {
@@ -534,7 +535,7 @@ form h1{
     }
 
     .highlight-line {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     .logo {
@@ -577,7 +578,7 @@ form h1{
     }
 
     .About {
-        padding: 10% 5%;
+        padding: 30% 5%;
         padding-top:50px;
     }
     .work-list {
