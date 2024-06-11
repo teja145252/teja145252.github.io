@@ -520,7 +520,7 @@ form h1{
         font-size: 25px;
         position: absolute;
         text-align: left;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         bottom: 0; /* Align header text to the bottom */ 
     }
     #header{
@@ -578,7 +578,7 @@ form h1{
 
     .About {
         padding: 10% 5%;
-        padding-top:10px;
+        padding-top:50px;
     }
     .work-list {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
