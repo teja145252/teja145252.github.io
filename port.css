@@ -524,6 +524,15 @@ form h1{
         right: 20px;
         z-index: 1001;
     }
+    .highlight-line1 {
+    background: linear-gradient(45deg, #003f5c, #2f4b7c, #665191, #a05195);
+    -webkit-background-clip: text;
+    font-weight: 600;
+    font-size: 2em;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
     .header-text {
 /*         padding: 5px;
         padding-top: 450px;
