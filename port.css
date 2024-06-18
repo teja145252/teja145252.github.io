@@ -88,10 +88,20 @@ nav a:hover {
     /* font-family:  Arial, sans-serif; */
 }
 
-.highlight-line1{
+/* .highlight-line1{
     color: rgb(234, 71, 12);
     font-size: 2em;
     font-family: Arial, sans-serif;
+} */
+
+.highlight-line1 {
+    /* background: linear-gradient(45deg, #ff2d55, #ffcc00, #28cd41, #5ac8fa, #af52de, #ff2d55); */
+    background: linear-gradient(45deg, #ff6f61, #de6fa1, #6a6fe3, #59a8de, #61ffa5);
+    -webkit-background-clip: text;
+    font-size: 2em;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .header-text{
